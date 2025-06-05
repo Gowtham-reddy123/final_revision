@@ -1,0 +1,3 @@
+s=input("enter a string : ")
+print("swap case : ",s.swapcase())
+print('''The swapcase function is used to converts uppercase character into lowercase character and lowercase character into uppercase characters and non alphabetic remain unchanged this is the function use''')
