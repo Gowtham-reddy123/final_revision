@@ -1,0 +1,8 @@
+List=[1,2,3,4,5]
+try:
+	index=int(input("enter the index :"))
+	print("enter the index you want : ",List[index])
+except ValueError:
+	print("please give the valid input ")
+except IndexError:
+	print("the index is out of range ")
